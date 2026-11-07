@@ -11,6 +11,7 @@ SPECIALISTS = [
     ("Anna", "Nowak", "Terapia poznawczo-behawioralna", "online"),
     ("Piotr", "Wiśniewski", "Psychologia dziecięca", "stacjonarnie"),
     ("Maria", "Zielińska", "Terapia par", "online"),
+    ("Ewa", "Lis", "Terapia par", "online"),
 ]
 
 
