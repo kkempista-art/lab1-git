@@ -13,6 +13,8 @@ class Specialist(models.Model):
         ("online", "Online"),
         ("stacjonarnie", "Stacjonarnie"),
         ("hybrydowo", "Hybrydowo"),
+
+
     ]
 
     first_name = models.CharField(max_length=50)
@@ -28,4 +30,8 @@ class Specialist(models.Model):
 
     def __str__(self) -> str:
         return f"{self.first_name} {self.last_name}"
-    
+
+    class Meta:
+        verbose_name = "Specjalista"
+        verbose_name_plural = "Specjaliści"
+        ordering = ["last_name", "first_name"]
